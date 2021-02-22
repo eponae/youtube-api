@@ -8,6 +8,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
+_Command to launch project : `REACT_APP_API_KEY=YOUR_YOUTUBE_API_KEY npm start`_
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
