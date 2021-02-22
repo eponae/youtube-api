@@ -7,8 +7,9 @@ const AppRoutes = () => {
   return (
     <Switch>
       <Route exact path="/home" children={<Home />} />
-      <Route exact path="/videos" children={<Videos />} />
-      <Redirect to="/home" />
+      <Route exact path="/home/videos" children={<Videos />} />
+      <Route exact path="/home/videos/:videoId" children={<div />} />
+      <Redirect path="/" to="/home" />
     </Switch>
   );
 };
