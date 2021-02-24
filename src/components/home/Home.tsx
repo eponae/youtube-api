@@ -36,7 +36,7 @@ const Home = () => {
       <SearchWrapper>
         <FormWrapper onSubmit={onSubmit}>
           <LabelWrapper>
-            Channel name
+            Video name
             <InputWrapper type="text" onChange={onChange} />
           </LabelWrapper>
           <ButtonWrapper type="submit">Search</ButtonWrapper>
